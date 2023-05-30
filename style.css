@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: gray;
+  overflow-x: hidden;
+}
+nav {
+  background: red;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 2rem 9%;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+nav .logo {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bolder;
+}
+
+nav .nav-items {
+  display: flex;
+  flex: 1;
+  padding: 0 0 0 10px;
+  margin-left: 330px;
+}
+nav .nav-items a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 15px;
+}
+nav .nav-items a i {
+  color: #fff;
+  padding: 5px;
+}
+nav .nav-icons {
+  font-size: 1.5rem;
+  display: flex;
+  color: #333;
+  margin-left: 1.5rem;
+}
+nav.nav-icons :hover {
+  color: pink;
+}
+nav form {
+  display: flex;
+  height: 40px;
+  padding: 2px;
+  background: orange;
+  min-width: 18%;
+  border-radius: 30px;
+  border: 1px solid rgda(155, 155, 155, 0.2);
+}
+nav from.search-data {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  font-weight: 100;
+  background: none;
+}
+nav from button {
+  padding: 0 10px;
+  color: #fff;
+  font-size: 17px;
+  background: gray;
+  border: none;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  cursor: pointer;
+}
+.movie-items {
+  /* width: 100%;
+  height: 10%;
+  margin-top: 30px;
+  margin-left: 1%;
+  padding: 30px; */
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.column {
+  float: left;
+  width: 80%;
+}
